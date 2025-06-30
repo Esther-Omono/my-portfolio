@@ -13,7 +13,7 @@ export default function Nav() {
       </div>
       <button
         type='button'
-        className='border-2 border-[#2C3640] px-4 py-1 hover:bg-[#2C3640] hover:text-[#F2F6EB] font-bold cursor-pointer'
+        className='border-2 border-[#2C3640] px-4 py-1 hover:bg-[#2C3640] hover:text-[#F2F6EB] font-bold rounded-lg cursor-pointer'
       >
         Contact
       </button>

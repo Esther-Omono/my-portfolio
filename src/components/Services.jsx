@@ -12,7 +12,7 @@ export default function Services() {
       ],
     },
     {
-      title: 'User Experience & Interface',
+      title: 'User Interface & Experience',
       content: [
         'UI/UX Implementation',
         'Website Redesign & Modernization',

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { FaChevronCircleDown } from 'react-icons/fa';
 
 const Accordion = ({ items, allowMultiple = false, defaultOpen = null }) => {
