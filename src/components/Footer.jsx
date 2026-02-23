@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className='bg-[#242734]'>
+    <footer className='bg-[#242734] font-[Poppins]'>
       <div className='max-w-6xl mx-auto px-6 py-12'>
         {/* Top Section */}
         <div className='flex flex-col md:flex-row md:justify-between md:items-center gap-8'>
