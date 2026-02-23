@@ -1,4 +1,3 @@
-import Navbar from './Nav';
 import SectionLabel from './SectionLabel';
 import { MdMailOutline } from 'react-icons/md';
 import { FaLinkedinIn } from 'react-icons/fa';
@@ -14,15 +13,7 @@ export default function Header() {
   const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
   return (
-    <header className='bg-[#323647] px-10 md:px-30 py-10'>
-      {/* Navigation Section */}
-      <div className='flex justify-between items-center pb-6'>
-        <p className='text-[#FCC258] text-xl sm:text-2xl font-[Montserrat] font-bold'>
-          Esther
-        </p>
-        <Navbar />
-      </div>
-
+    <header id='home' className='bg-[#323647] px-10 md:px-30 py-10'>
       {/* Hero Section */}
       <div className='grid md:grid-cols-2 items-center gap-14 mt-10'>
         {/* Left Side */}
@@ -89,12 +80,12 @@ export default function Header() {
             design practices.
           </p>
 
-          <Link to='/projects'>
+          <a href='#projects'>
             <div className='inline-flex pt-6 text-[#FCC258] items-center gap-2 hover:gap-3 transition-all'>
               <p>My Projects</p>
               <FaArrowRight />
             </div>
-          </Link>
+          </a>
         </div>
       </div>
     </header>

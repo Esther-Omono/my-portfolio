@@ -31,7 +31,7 @@ export default function Skills() {
   ];
 
   return (
-    <section className='bg-[#242734] px-10 md:px-30 py-15'>
+    <section id='skills' className='bg-[#242734] px-10 md:px-30 py-15'>
       <SectionLabel>Skills</SectionLabel>
 
       <p className='text-slate-400 font-[Poppins] mt-5 '>

@@ -9,7 +9,7 @@ export default function Contact() {
   const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
   return (
-    <section className='bg-[#323647] px-10 md:px-30 py-15'>
+    <section id='contact' className='bg-[#323647] px-10 md:px-30 py-15'>
       <SectionLabel>Contact</SectionLabel>
 
       <p className='text-slate-400 mt-5 font-[Poppins]'>

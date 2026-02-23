@@ -17,7 +17,7 @@ export default function Footer() {
 
           {/* Navigation Links */}
           <div className='flex flex-wrap gap-6 text-sm text-slate-400'>
-            <a href='#about' className='hover:text-white transition-colors'>
+            <a href='#home' className='hover:text-white transition-colors'>
               Home
             </a>
             <a href='#projects' className='hover:text-white transition-colors'>

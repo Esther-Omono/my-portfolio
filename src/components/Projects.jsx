@@ -4,7 +4,7 @@ import { projectsData } from '../data/projects';
 
 export default function Projects() {
   return (
-    <section className='bg-[#323647] px-10 md:px-30 py-15'>
+    <section id='projects' className='bg-[#323647] px-10 md:px-30 py-15'>
       <SectionLabel>Projects</SectionLabel>
       <p className='text-slate-400 font-[Poppins] mt-5 '>
         Explore my latest frontend projects showcasing modern web technologies
