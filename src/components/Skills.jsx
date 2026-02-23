@@ -31,7 +31,7 @@ export default function Skills() {
   ];
 
   return (
-    <section className='bg-[#242734] px-10 md:px-30 py-20'>
+    <section className='bg-[#242734] px-10 md:px-30 py-15'>
       <SectionLabel>Skills</SectionLabel>
 
       <p className='text-slate-400 font-[Poppins] mt-5 '>
@@ -39,7 +39,7 @@ export default function Skills() {
         tools.
       </p>
 
-      <div className='mt-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8'>
+      <div className='font-[Montserrat] mt-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8'>
         {skillsData.map((category, index) => (
           <SkillCard
             key={index}

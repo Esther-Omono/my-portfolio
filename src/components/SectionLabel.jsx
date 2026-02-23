@@ -3,7 +3,7 @@ export default function SectionLabel({ children, className = '' }) {
     <p
       className={`text-xs font-bold uppercase tracking-widest text-slate-400 font-[Montserrat] ${className}`}
     >
-      — {children}
+      <span className='text-[#FCC258]'>—</span> {children}
     </p>
   );
 }
