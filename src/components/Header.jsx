@@ -3,7 +3,6 @@ import { MdMailOutline } from 'react-icons/md';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa6';
-import { Link } from 'react-router-dom';
 
 export default function Header() {
   const emailAddress = 'enitanatakere@gmail.com';
@@ -13,9 +12,9 @@ export default function Header() {
   const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
   return (
-    <header id='home' className='bg-[#323647] px-10 md:px-30 py-10'>
+    <header id='home' className='bg-[#323647] px-10 md:px-30 py-7'>
       {/* Hero Section */}
-      <div className='grid md:grid-cols-2 items-center gap-14 mt-10'>
+      <div className='grid md:grid-cols-2 items-center gap-14'>
         {/* Left Side */}
         <div>
           <h1 className='text-white text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight font-[Montserrat]'>
