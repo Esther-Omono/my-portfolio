@@ -14,7 +14,7 @@ export default function Header() {
   const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
   return (
-    <header className='bg-[#323647] px-30 py-10'>
+    <header className='bg-[#323647] px-10 md:px-30 py-10'>
       {/* Navigation Section */}
       <div className='flex justify-between pb-5'>
         <p className='text-[#FCC258] text-2xl font-[Montserrat] font-bold'>
@@ -24,7 +24,7 @@ export default function Header() {
       </div>
 
       {/* Hero Section */}
-      <div className='grid md:grid-cols-2 gap-16 mt-24'>
+      <div className='grid md:grid-cols-2 gap-16 mt-15'>
         {/* Left Side */}
         <div>
           <h1 className='text-white text-6xl font-bold leading-tight font-[Montserrat]'>

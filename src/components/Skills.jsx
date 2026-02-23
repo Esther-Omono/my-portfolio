@@ -1,31 +1,52 @@
 import SectionLabel from './SectionLabel';
+import SkillCard from './SkillCard';
 
 export default function Skills() {
+  const skillsData = [
+    {
+      title: 'Core Frontend',
+      skills: [
+        'HTML5 (semantic)',
+        'CSS3 (Flexbox, Grid)',
+        'JavaScript (ES6+)',
+        'TailwindCSS',
+        'Responsive Design',
+        'Accessibility',
+      ],
+    },
+    {
+      title: 'Frameworks/Tools',
+      skills: ['React', 'Vite', 'Git & GitHub', 'REST APIs', 'NPM'],
+    },
+    {
+      title: 'Engineering Practices',
+      skills: [
+        'Component-based architecture',
+        'State management',
+        'Clean code principles',
+        'Performance optimization',
+        'Debugging',
+      ],
+    },
+  ];
+
   return (
-    <section className='bg-[#242734] px-30 py-10'>
+    <section className='bg-[#242734] px-10 md:px-30 py-20'>
       <SectionLabel>Skills</SectionLabel>
-      {/*<p className='text-white font-[Poppins] pt-5 text-justify'>
+
+      <p className='text-slate-400 font-[Poppins] mt-5 '>
         An overview of my technical skills across various technologies and
         tools.
-      </p>*/}
+      </p>
 
-      <div>
-        <div>
-          <h2>Core Frontend</h2>
-          <div>
-            <p>HTML5 (semantic)</p>
-            <p>CSS3 (Flexbox, Grid)</p>
-            <p>JavaScript (ES6+)</p>
-            <p>Responsive Design</p>
-            <p>Accessibility</p>
-          </div>
-        </div>
-        <div>
-          <h2>Frameworks/Tools</h2>
-        </div>
-        <div>
-          <h2>Engineering Practices</h2>
-        </div>
+      <div className='mt-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8'>
+        {skillsData.map((category, index) => (
+          <SkillCard
+            key={index}
+            title={category.title}
+            skills={category.skills}
+          />
+        ))}
       </div>
     </section>
   );
