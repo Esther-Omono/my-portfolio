@@ -9,13 +9,13 @@ const navItems = [
 export default function Navbar() {
   return (
     <nav>
-      <ul className='flex gap-8'>
+      <ul className='flex gap-6 sm:gap-8'>
         {navItems.map((item) => (
           <li key={item.name} className='relative'>
             <NavLink
               to={item.path}
               className={({ isActive }) =>
-                `relative text-sm font-medium transition-colors duration-300 
+                `text-xs sm:text-sm font-medium transition-colors duration-300 
                 ${isActive ? 'text-white' : 'text-slate-400 hover:text-white'}`
               }
             >

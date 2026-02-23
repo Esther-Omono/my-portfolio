@@ -16,27 +16,28 @@ export default function Header() {
   return (
     <header className='bg-[#323647] px-10 md:px-30 py-10'>
       {/* Navigation Section */}
-      <div className='flex justify-between pb-5'>
-        <p className='text-[#FCC258] text-2xl font-[Montserrat] font-bold'>
+      <div className='flex justify-between items-center pb-6'>
+        <p className='text-[#FCC258] text-xl sm:text-2xl font-[Montserrat] font-bold'>
           Esther
         </p>
         <Navbar />
       </div>
 
       {/* Hero Section */}
-      <div className='grid md:grid-cols-2 gap-16 mt-15'>
+      <div className='grid md:grid-cols-2 items-center gap-14 mt-10'>
         {/* Left Side */}
         <div>
-          <h1 className='text-white text-6xl font-bold leading-tight font-[Montserrat]'>
+          <h1 className='text-white text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight font-[Montserrat]'>
             Esther <br /> Atakere.
           </h1>
 
           {/* Yellow Dash */}
-          <div className='mt-6 h-1 w-12 bg-[#FCC258] rounded'></div>
+          <div className='mt-5 h-1 w-10 bg-[#FCC258] rounded'></div>
 
           {/* Social icons placeholder */}
-          <div className='flex gap-6 mt-10 text-slate-400 text-lg'>
+          <div className='flex gap-6 mt-8 text-slate-400 text-xl'>
             <a
+              className='hover:text-white transition'
               href={mailtoLink}
               title='Send me an email'
               aria-label='Send an email to enitanatakere@gmail.com'
@@ -47,7 +48,10 @@ export default function Header() {
             </a>
 
             <a
+              className='hover:text-white transition'
               href='https://www.linkedin.com/in/esther-atakere/'
+              target='_blank'
+              rel='noopener noreferrer'
               title='Check me out on LinkedIn'
               aria-label='Send a message to me on LinkedIn'
             >
@@ -57,7 +61,10 @@ export default function Header() {
             </a>
 
             <a
+              className='hover:text-white transition'
               href='https://github.com/Esther-Omono'
+              target='_blank'
+              rel='noopener noreferrer'
               title='Check out my GitHub'
               aria-label='Check out my work on GitHub'
             >
@@ -71,10 +78,11 @@ export default function Header() {
         {/* Right Side */}
         <div>
           <SectionLabel>About</SectionLabel>
-          <h2 className='text-white text-4xl font-[Poppins] py-4'>
+
+          <h2 className='text-white text-2xl sm:text-3xl lg:text-4xl font-[Poppins] py-4'>
             A Frontend Developer
           </h2>
-          <p className='text-slate-400 text-justify'>
+          <p className='text-slate-400 text-justify leading-relaxed'>
             With hands-on experience in building interactive and responsive web
             interfaces. I'm passionate about crafting clean, user-focused
             solutions that prioritize performance, accessibility, and modern
@@ -82,7 +90,7 @@ export default function Header() {
           </p>
 
           <Link to='/projects'>
-            <div className='pt-4 text-[#FCC258] flex items-center gap-2'>
+            <div className='inline-flex pt-6 text-[#FCC258] items-center gap-2 hover:gap-3 transition-all'>
               <p>My Projects</p>
               <FaArrowRight />
             </div>
