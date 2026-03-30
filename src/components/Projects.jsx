@@ -7,8 +7,8 @@ export default function Projects() {
     <section id='projects' className='bg-[#323647] px-10 md:px-30 py-15'>
       <SectionLabel>Projects</SectionLabel>
       <p className='text-slate-400 font-[Poppins] mt-5 '>
-        Explore my latest frontend projects showcasing modern web technologies
-        and creative solutions.
+        Explore a curated set of projects showcasing my frontend skills and
+        highlighting my journey in frontend development.
       </p>
 
       <div className='mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 font-[Montserrat]'>
