@@ -1,12 +1,87 @@
-# React + Vite
+# Esther Atakere — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React and TailwindCSS, showcasing my frontend development skills, projects, and experience.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[View Live Site](https://esther-portfolio-two.vercel.app) <!-- Replace with your deployed URL -->
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** — Component-based UI
+- **Vite** — Fast dev server and build tool
+- **TailwindCSS** — Utility-first styling
+- **React Icons** — Icon library
+
+## Features
+
+- Responsive design with mobile hamburger navigation
+- Sticky navbar with scroll-triggered bottom border
+- Smooth scroll navigation via anchor links
+- Sections: About, Skills, Projects, Experience, Contact
+- Contact form with email, GitHub, and LinkedIn links
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Header.jsx
+│   ├── Skills.jsx
+│   ├── SkillCard.jsx
+│   ├── Projects.jsx
+│   ├── ProjectsCard.jsx
+│   ├── Experience.jsx
+│   ├── ExperienceCard.jsx
+│   ├── Contact.jsx
+│   ├── Footer.jsx
+│   └── SectionLabel.jsx
+├── data/
+│   ├── projects.js
+│   └── experience.js
+├── App.jsx
+└── main.jsx
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Esther-Omono/portfolio.git
+   cd portfolio
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser at `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## Contact
+
+- **Email:** enitanatakere@gmail.com
+- **GitHub:** [github.com/Esther-Omono](https://github.com/Esther-Omono)
+- **LinkedIn:** [linkedin.com/in/esther-atakere](https://www.linkedin.com/in/esther-atakere/)
