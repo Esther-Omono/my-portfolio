@@ -1,4 +1,4 @@
-# Esther Atakere — Portfolio
+# Esther Atakere - Portfolio
 
 A personal portfolio website built with React and TailwindCSS, showcasing my frontend development skills, projects, and experience.
 
@@ -8,10 +8,10 @@ A personal portfolio website built with React and TailwindCSS, showcasing my fro
 
 ## Tech Stack
 
-- **React** — Component-based UI
-- **Vite** — Fast dev server and build tool
-- **TailwindCSS** — Utility-first styling
-- **React Icons** — Icon library
+- **React**: Component-based UI
+- **Vite**: Fast dev server and build tool
+- **TailwindCSS**: Utility-first styling
+- **React Icons**: Icon library
 
 ## Features
 
