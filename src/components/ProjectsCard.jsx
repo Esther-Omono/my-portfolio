@@ -49,6 +49,8 @@ export default function ProjectsCard({
           {/* GitHub */}
           <a
             href={isGithubAvailable ? githubURL : 'undefined'}
+            target='_blank'
+            rel='noopener noreferrer'
             disabled={!isGithubAvailable}
             className={`border py-2 px-3 rounded-lg font-medium text-slate-400 transition flex items-center gap-2
               ${
@@ -64,6 +66,8 @@ export default function ProjectsCard({
           {/* Live Demo */}
           <a
             href={isLiveAvailable ? liveURL : 'undefined'}
+            target='_blank'
+            rel='noopener noreferrer'
             disabled={!isLiveAvailable}
             className={`border py-2 px-3 rounded-lg font-medium text-slate-400 transition flex items-center gap-2
               ${

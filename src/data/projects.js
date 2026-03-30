@@ -7,7 +7,7 @@ export const projectsData = [
     id: 1,
     title: 'Lagbuy | E-commerce Website',
     description:
-      'A full-featured e-commerce website with React, TypeScript, and Tailwind CSS, including product listings, cart management, checkout flow, payment integration, and authentication.',
+      'A full-featured e-commerce website built with React, TypeScript, and Tailwind CSS, including product listings, cart management, checkout flow, payment integration, and authentication.',
     image: Lagbuy,
     technologies: ['React', 'TypeScript', 'Tailwind CSS'],
     githubURL: '',
